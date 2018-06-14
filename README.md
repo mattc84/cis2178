@@ -3,6 +3,8 @@
 Your capstone project will consist of two parts:
 1. Creating a portfolio site and hosting it on GitHub pages
 2. Submitting pull requests to this site
+3. Participate in a Code Review
+
 
 ## 1. Creating a Portfolio Site
 Having a personal website is important for getting a position in the computer programming field. 
@@ -25,3 +27,11 @@ For the second part, you will have a bug assigned to you that you will have to f
 
 To accomplish these tasks, you'll need to fork this repo, modify and test the code, and then submit a pull 
 request to me for credit.
+
+
+## 3. Code Review
+Schedule a 30 minute code review with me sometime during the 2nd half of July (coordinate with me via slack). 
+It can be in person at Sinclair, or 
+virtual via Google Hangouts. This will consist of you walking me through your code for both of the items above
+(portfolio site and bug fix). You will need to be able to explain your code to me, discuss the reasoning behind
+the decisions you made, and point out parts you're particularly proud of or parts you would like some help with. 
