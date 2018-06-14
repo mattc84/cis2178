@@ -1,6 +1,6 @@
 # CIS 2178 - Summer 2018
 ## Capstone Project
-Your capstone project will consist of two parts:
+Your capstone project will consist of three parts:
 1. Creating a portfolio site and hosting it on GitHub pages
 2. Submitting pull requests to this site
 3. Participate in a Code Review
