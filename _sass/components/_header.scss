@@ -1,0 +1,11 @@
+
+.header {
+    background: $color-primary;
+    background-image: linear-gradient(
+        transparentize($color-primary, 0.25), transparentize($color-primary, 0.25)
+    ), url('../images/priscilla-du-preez-623040-unsplash.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+}

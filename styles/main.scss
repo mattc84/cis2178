@@ -1,13 +1,13 @@
 ---
 ---
 // Libraries
-@import 'normalize';
+@import 'defaults/normalize';
 
 // Defaults
-@import 'colors';
-@import 'tags';
+@import 'defaults/colors';
+@import 'defaults/tags';
 
 // Components
-
+@import 'components/header';
 
 // Pages
