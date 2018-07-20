@@ -6,8 +6,10 @@
 // Defaults
 @import 'defaults/colors';
 @import 'defaults/tags';
+@import 'defaults/typography';
 
 // Components
+@import 'components/content';
 @import 'components/header';
 
 // Pages
