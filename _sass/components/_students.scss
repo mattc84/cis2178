@@ -1,8 +1,14 @@
 
 .students {
+
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 1.0em auto;
+
+    @include desktop {
+        justify-content: flex-start;
+    }
 
     .student {
         border: 1px solid $color-white;

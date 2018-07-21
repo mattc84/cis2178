@@ -17,10 +17,14 @@
     h1 {
         color: $color-white;
         display: block;
-        font-size: $fontsize-xl;
+        font-size: 48px;
         font-weight: $fontweight-bold;
         margin: 0;
-        line-height: $fontsize-xl * 1.15;
         text-align: center;
+
+        @include desktop {
+            font-size: $fontsize-xl;
+            line-height: $fontsize-xl * 1.15;
+        }
     }
 }
