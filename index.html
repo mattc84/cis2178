@@ -3,7 +3,7 @@ layout: home
 ---
 
 
-<h1>CIS 2178 - Capstone Project</h1>
+<h2>CIS 2178 - Capstone Project</h2>
 
 <p>
     For their CIS 2178 Capstone Project, students developed personal
@@ -12,3 +12,46 @@ layout: home
     available to them, with the objective of developing something visually
     impressive that would aid them in the pursuit of employment.
 </p>
+
+
+<h2>Students</h2>
+
+<div class="students">
+    {% for student in site.students %}
+    <div class="student">
+        <div class="avatar" style="background-image: url('../images/avatar/{{ student.avatar }}');">
+
+        </div>
+        <div class="info">
+            <dl>
+                <dt>Name: </dt><dd>{{ student.name }}</dd>
+                <dt>Email: </dt><dd>{{ student.email }}</dd>
+                <dt>Graduation Date: </dt><dd>{{ student.graduation }}</dd>
+
+                <dt>GitHub: </dt>
+                <dd>
+                    <a target="_blank" href="https://github.com/{{ student.github_username}}">
+                        {{ student.github_username }}
+                    </a>
+                </dd>
+
+                <dt>Portfolio: </dt>
+                <dd>
+                    <a target="_blank" href="{{ student.portfolio_url }}">
+                        {{ student.portfolio_url }}
+                    </a>
+                </dd>
+
+                <dt>Source Code: </dt>
+                <dd>
+                    <a target="_blank" href="{{ student.portfolio_repo }}">
+                        {{ student.portfolio_repo }}
+                    </a>
+                </dd>
+            </dl>
+        </div>
+
+    </div>
+    {% endfor %}
+</div>
+
